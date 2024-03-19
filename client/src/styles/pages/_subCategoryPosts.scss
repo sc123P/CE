@@ -1,0 +1,33 @@
+//PROJECTS TOP
+.projectsTop{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    // background: linear-gradient(-180deg, rgba(224,49,55,1) 20%, rgba(245,217,56,1) 100%);
+    background: $color-1;
+            background: linear-gradient(145deg, rgba(46,139,87,1) 0%, rgba(0,255,147,1) 100%);
+    .projectsTopText{
+        position: absolute;
+        //z-index: 5;
+        width: 100%;
+        height: 100%;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        color: $white;
+        @include verticalCenter;
+    }
+    .projectsTopBlack{
+        width: 100%;
+        height: 100%;
+        background-color: $black-2;
+        opacity: 15%;
+    }
+    img{
+        opacity: 50%;
+        width: 100%;
+    }
+    .projectsTop img{
+        height: auto;
+        max-height: 375px;
+    }
+}

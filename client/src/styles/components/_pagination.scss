@@ -1,0 +1,24 @@
+//PAGINATION
+.paginationMain{
+    @include verticalCenter;
+    gap: 10px;
+    margin-top: 40px;
+    .page-item, .previous, .next, .page-link{
+        width: 30px;
+        height: 30px;
+        border-radius: $borderRadius;
+        @include verticalCenter;
+        svg{
+            width: 20px;
+            height: 20px;
+            @include verticalCenter;
+        }
+        &:hover{
+            background-color: lightgray;
+        }
+        
+        .active{
+            background-color: lightgray;
+        }
+    }
+}
